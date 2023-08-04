@@ -1,1 +1,16 @@
-
+•	mkdir– this command is used to create a new directory.
+•	rmdir– this command is used to remove the directory.
+•	dir – this command displays a list of a directory's files and subdirectories.
+•	pwd  – this command writes to standard output the full path name of your current directory (from the root directory)
+•	cd– this command is used to change the directory to where the user wants to go. 
+•	ls – the ls command is used to list files or directories in Linux and other Unix-based operating systems.
+•	vi – The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch.
+•	gedit– this command is used to create a new C file.
+•	more – this command is used to view the text files in the command prompt, displaying one screen at a time in case the file is large.
+•	cp – this command is the copy command used to copy the file from one location to another as 		[cp source_path target_path]
+•	mv – this command is the move command used to move the file from one location to another as  
+[mv source_path target_path].
+•	rm – command removes the entries for a specified file, group of files, or certain select files from a list within a directory.
+•	gcc filename.c -o filename – this command is used for compilation of the existing C file and subsequently creating a object file.
+•	./filename – this command is used to run the compiled objective file.
+•	cd.. – this command is used to go back to the previous directory or previous location
