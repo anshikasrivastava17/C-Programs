@@ -1,0 +1,38 @@
+/* Design a structure ‘product’ to store the details of the product purchased like product name, price per unit, number of quantities purchased, and amount spent. 
+Get the name, price per unit, and number of quantities of the product purchased. 
+Calculate the amount spent on the product and then display all the details of the procured product using structure pointers. */
+
+#include<stdio.h>
+
+typedef struct Product    //structure
+{
+    char name[30];
+    int unit_price, quantity, amount;
+} product;
+
+int amt(product*);
+
+int main( )
+{
+    product one;
+    printf("Enter name of product - ");
+    scanf("%s", &one.name);
+    printf("Enter price of one unit - ");
+    scanf("%d", &one.unit_price);
+    printf("Enter quantity - ");
+    scanf("%d", &one.quantity);
+ 
+    amt(&one);               //function call
+
+    printf("\n Product details - ");
+    printf("\n Name                   - %s", one.name);
+    printf("\nPrice of one unit      - %d", one.unit_price);
+    printf("\nNo. of units purchased - %d", one.quantity);
+    printf("\nTotal amount           - %d", one.amount); 
+}
+
+
+int amt(product *item)
+{
+    item->amount = (item->unit_price)*(item->quantity);
+}
