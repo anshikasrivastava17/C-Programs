@@ -7,7 +7,7 @@ int choice;
 printf("enter\n1 to find the area of parallelogram\n2to find area of trapazoid\n3 to find the area of rhombus\n4 to find the area of sphere\n5 to find area of elipse\n");
 scanf("%d",&choice);
 switch(choice){
-   case 1:{
+   case 1:{                                                         //for parellelogram
       int b,h;
 	  float area;
 	  printf("enter base and height of the parallelogram\n");
